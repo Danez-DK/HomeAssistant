@@ -8,12 +8,13 @@ curl -Lo "HA_Auto_Install.sh" "https://raw.githubusercontent.com/Danez-DK/HomeAs
 ```
 
 You might have to edit the script, before you use it, if your system dosen't recognice the disk at boot.
+Remove the hashtag '#' from the last line.
 ```
 sudo nano HA_Auto_Install.sh
 ```
 
-Run the script
+Run the script:
 ```
-xhmod +x HA_Auto_Install.sh
+chmod +x HA_Auto_Install.sh
 \. HA_Auto_Install.sh
 ```
