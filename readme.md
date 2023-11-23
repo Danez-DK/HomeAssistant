@@ -4,7 +4,7 @@ You'll find various script related to Home Assistant here.
 ## Home Assistant download and install script
 The script is for "generic-x86", but you can change it for other platforms!
 
-Download "download & install script" use the following command:
+To download "HA_Auto_Install.sh" use the following command:
 ```
 curl -Lo "HA_Auto_Install.sh" "https://raw.githubusercontent.com/Danez-DK/HomeAssistant/main/HA-Scripts/HA_Auto_Install.sh"
 ```
