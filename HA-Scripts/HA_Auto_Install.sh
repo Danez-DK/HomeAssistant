@@ -12,11 +12,7 @@ echo "Downloading..."
 curl -Lo "$HAOS_FILENAME" "$HAOS_DL_URL"
 
 # Change sda to the device name of the harddisk you want to write HAOS to.
-
-# Remove the Hashtag from the linies to write to the harddisk
 xzcat "$HAOS_FILENAME" | sudo dd of=/dev/sda
 
 # If you bios dosen't recognice the drive, when booting, try the following.
 # sudo efibootmgr --create --disk /dev/sda --part 1 --label "HAOS" --loader "\EFI\BOOT\bootx64.eif"
-
-HA-Scripts/HA_Auto_Install.sh
