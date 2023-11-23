@@ -18,3 +18,5 @@ xzcat "$HAOS_FILENAME" | sudo dd of=/dev/sda
 
 # If you bios dosen't recognice the drive, when booting, try the following.
 # sudo efibootmgr --create --disk /dev/sda --part 1 --label "HAOS" --loader "\EFI\BOOT\bootx64.eif"
+
+HA-Scripts/HA_Auto_Install.sh
